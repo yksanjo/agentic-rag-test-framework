@@ -1,8 +1,11 @@
 # Agentic RAG Test Framework
 
-![License](https://img.shields.io/github/license/ai-engineer-community/agentic-rag-test-framework)
+![License](https://img.shields.io/github/license/yksanjo/agentic-rag-test-framework)
+![GitHub stars](https://img.shields.io/github/stars/yksanjo/agentic-rag-test-framework?style=social)
+![GitHub issues](https://img.shields.io/github/issues/yksanjo/agentic-rag-test-framework)
 ![Python](https://img.shields.io/badge/Made%20with-Python-blue)
 ![CLI](https://img.shields.io/badge/CLI-Tool-green)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
 CLI tool + GitHub Actions integration for automated evaluation of RAG agents against knowledge bases, vector DB quality metrics, tool hallucination detection, and context relevance scoring.
 
