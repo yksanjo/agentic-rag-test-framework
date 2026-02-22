@@ -1,47 +1,84 @@
-# Agentic RAG Test Framework
+# agentic-rag-test-framework
 
-![License](https://img.shields.io/github/license/yksanjo/agentic-rag-test-framework)
-![GitHub stars](https://img.shields.io/github/stars/yksanjo/agentic-rag-test-framework?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yksanjo/agentic-rag-test-framework)
-![Python](https://img.shields.io/badge/Made%20with-Python-blue)
-![CLI](https://img.shields.io/badge/CLI-Tool-green)
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+## Detailed Description
 
-CLI tool + GitHub Actions integration for automated evaluation of RAG agents against knowledge bases, vector DB quality metrics, tool hallucination detection, and context relevance scoring.
+agentic-rag-test-framework is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-## Features
+## Problem Statement
 
-- Automated RAG evaluation against knowledge bases
-- Vector database quality metrics
-- Tool hallucination detection
-- Context relevance scoring
-- GitHub Actions integration
-- Support for multiple RAG frameworks
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-## Installation
+## Solution Overview
 
-```bash
-pip install agentic-rag-test-framework
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-Or for development:
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-git clone https://github.com/your-username/agentic-rag-test-framework.git
-cd agentic-rag-test-framework
-pip install -e .
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt  # or: pip install -e .[dev]
+pytest
 ```
 
 ## Usage
 
-```bash
-rag-test --config config.yaml --eval dataset.json
-```
+Document primary commands, API routes, CLI examples, or UI workflows here.
+
+## Quality Standards
+
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
+
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
 ## License
 
-MIT
+This project is released under the MIT License.
